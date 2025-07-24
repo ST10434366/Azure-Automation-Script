@@ -1,4 +1,4 @@
-<img width="446" height="502" alt="image" src="https://github.com/user-attachments/assets/186cc1e3-39c5-4d54-890c-b3b19a8a35cf" /># Azure Automation Script
+# Azure Automation Script
 
 Automates the creation, deployment and configuration of Azure Web App, SQL Server and Database services.
 

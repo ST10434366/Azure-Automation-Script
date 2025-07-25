@@ -1,6 +1,6 @@
 # Azure Automation Script
 
-Automates the creation, deployment and configuration of Azure Web App, SQL Server and Database services.
+Automates the creation, and configuration of Azure Web App, SQL Server and Database services. In the future this will be extended to include storage services.
 
 # 📋Dependencies 
 
@@ -30,4 +30,12 @@ Once execution policy is correctly set, run the following cmdlets:
 ```ps1#
 Install-Module -Name Az -Repository PSGallery -Force
 Update-Module -Name Az -Force
+```
+
+# 🔵Ussage 
+
+Navigate to the directory that contains the `Azure-Automation.ps1` script, then run the following cmdlet: 
+
+```ps1#
+.\Azure-Automation.ps1 -bypass
 ```
